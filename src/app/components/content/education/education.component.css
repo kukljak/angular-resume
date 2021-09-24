@@ -1,0 +1,41 @@
+.education {
+    background-color: rgb(191, 203, 211);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin: auto;
+}
+
+.university > i, .courses > i {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.university > h4 {
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.university > .pnu > h5 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+.courses {
+    margin-top: 25px;
+}
+
+.courses > .container > h5 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container > h5 > a {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Stick No Bills', sans-serif;
+}

@@ -1,0 +1,41 @@
+main {
+    background-color: rgb(191, 203, 211);
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+.bio > img {
+    margin: 0 10%;
+    text-align: center;
+    height: 300px;
+    border-radius: 30%;
+}
+
+.details {
+    
+    margin-right: 10%;
+}
+
+.details > h3 {
+    text-align: center;
+    padding-right: 50px;
+    margin-bottom: 5%;
+    color: rgb(246, 250, 253);
+    font-family: 'Heebo', sans-serif;
+}
+
+.details > h5 {
+    margin-bottom: 3%;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 1.3rem;
+}
+
+.details > p {
+    font-family: 'Heebo', sans-serif;
+}

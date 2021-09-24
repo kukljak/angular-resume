@@ -1,0 +1,49 @@
+.contacts-info {
+    background-color: rgb(191, 203, 211);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-info > div > i {
+    
+}
+
+.email, .linkedin, .city {
+    margin: auto 10%;
+    display: flex;
+    align-items: center;
+}
+
+.email > *, .linkedin > *, .city > * {
+    margin-right: 15px;
+}
+
+.email > h3, .email > h5,  .linkedin > h3, .linkedin > h5, .city > h3 {
+    margin: auto 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.email > h5 > a, .linkedin > h5 > a {
+    margin-left: 20px;
+}
+
+.email {
+    margin-top: 8%;
+}
+
+.city {
+    margin-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.city > i {
+    color: rgb(187, 52, 52);
+}
+
+.linkedin > i {
+    color:rgb(46, 85, 145);
+}
