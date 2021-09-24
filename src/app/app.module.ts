@@ -13,13 +13,13 @@ import { APP_BASE_HREF } from '@angular/common';
 
 const routes: Routes = [
   {
-    path: '', component: ContentComponent
+    path: '/angular-resume', component: ContentComponent
   },
   {
-    path: "contacts", component: ContactsComponent
+    path: "/angular-resume/contacts", component: ContactsComponent
   },
   {
-    path: "education", component: EducationComponent
+    path: "/angular-resume/education", component: EducationComponent
   }
 ];
 
