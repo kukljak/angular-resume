@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactsComponent } from './components/content/contacts/contacts.component';
 import { ContentComponent } from './components/content/content.component';
 import { EducationComponent } from './components/content/education/education.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 const routes: Routes = [
   {
@@ -36,7 +37,12 @@ const routes: Routes = [
     BrowserAnimationsModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useValue: "",
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
